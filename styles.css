@@ -1,0 +1,43 @@
+:root{
+            --materialize-green: #26a69a;
+        }
+
+        header{
+            background-image: url("imgs/lviv1.jpg");
+            min-height: 787px;
+            background-size: cover;
+            
+        }
+
+        #locations{
+            margin-top: 20px;
+        }
+
+        #locations h2{
+            color: var(--materialize-green)
+        }
+
+        h1, h2, h3, h4, h5, h6{
+            color: var(--materialize-green)
+        }
+
+        footer{
+            background-color: var(--materialize-green) !important;
+        }
+
+        footer a{
+            color: white;
+        }
+
+        .tabs .indicator{
+            background: var(--materialize-green);
+        }
+
+        .tabs .tab a{
+            color: var(--materialize-green) !important;
+        }
+
+        .tabs .tab a:focus, .tabs .tab a:focus.active {
+            background-color: #f5f5f5;
+            outline: none;
+        }
